@@ -7,9 +7,6 @@ makeUL(list0, "list0");
 makeUL(list0, "list1");
 makeUL(list2, "list2");
 
-// setTimeout('', 3000);
-replaceUL(list0, list2, list1);
-
 function intToList(n){
   digits = String(n)
   .split('')
@@ -286,3 +283,6 @@ function replaceUL(a0, a1, a2){
     checkLists(a1, a2);
   }
 }
+
+// setTimeout('', 3000);
+replaceUL(list0, list2, list1);
