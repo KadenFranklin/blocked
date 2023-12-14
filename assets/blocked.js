@@ -1,7 +1,7 @@
 // first thing should be a call to the twitter api to get the # of blocked accounts
 // store that in a variable and send it to _func()  intToString(integ){ }
 
-var digitsOld = [], digitsNew = [], list0 = ["0", "0", "0", "0"], list1 = ["0", "0", "0", "1"], list2 = ["0", "0", "0", "0"];
+var digitsOld = [], digitsNew = [], list0 = ["0", "0", "0", "0"], list1 = ["3", "8", "9", "6"], list2 = ["0", "0", "0", "0"];
 
 makeUL(list0, "list0");
 makeUL(list0, "list1");
