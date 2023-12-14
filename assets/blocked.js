@@ -92,7 +92,7 @@ function animate(id, digitOld, digitNew) {
   }
   if (digitOld.length == digitNew.length) {
     for (i = 0; i < sumChange; i++) {
-      if ( document.getElementById("list2 li:nth-child(" + id + ")").innerText ==",") {
+      if ( document.getElementById("list2 li:nth-child(" + id + ")").innerHTML ==",") {
         document.getElementById("list2").children[id].innerHTML = digitNew;
       }
       if ( document.getElementById("list1").children[id].innerHTML != digitOld) {
